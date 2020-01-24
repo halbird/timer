@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timer</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="timer">
+        <div class="controls">
+            <input id="duration" value="30" type="number">
+            <div class="btns">
+                <img id="startBtn" src="https://cdn2.iconfinder.com/data/icons/responsive-user-interface-1/18/18-512.png" alt="play button">
+                <img id="pauseBtn" src="https://cdn1.iconfinder.com/data/icons/mini-solid-icons-vol-3/16/131-512.png" alt="pause button"> 
+            </div>
+        </div>
+        <svg class="dial">
+            <circle r="180" cx="200" cy="200" fill="transparent" stroke="blue" stroke-width="15" transform="rotate(-90 200 200)"></circle>
+        </svg>
+    </div>
+    <div>
+        <h1 class="alert">Time's Up!</h1>
+    </div>
+
+    <script src="timer.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

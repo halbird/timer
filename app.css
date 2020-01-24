@@ -1,0 +1,56 @@
+body {
+    background-color: #c2eef4;
+}
+.timer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    width: 230px;
+}
+.btns img {
+    width: 50%;
+}
+.timer input {
+    display: block;
+    border: none;
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #c2eef4;
+    outline: none;
+}
+.timer img {
+    cursor: pointer;
+    display: inline-block;
+}
+.dial {
+    height: 400px;
+    width: 400px;
+}
+#startBtn:hover, #pauseBtn:hover {
+    background-color: #00bcd4a8;
+    border-radius: 50%;
+}
+.alert {
+    display: none;
+}
+.displayAlert {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
